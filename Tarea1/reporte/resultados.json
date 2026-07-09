@@ -1,0 +1,104 @@
+{
+  "corpus": {
+    "2019": {
+      "intervenciones": 34695,
+      "tokens": 1149828,
+      "tipos": 24534,
+      "hapax": 8710,
+      "oraciones": 55466,
+      "fragmentos": 574,
+      "ttr_medio": 0.3313493031358885,
+      "ttr_desv": 0.012753472897330819,
+      "long_oracion_media": 20.84567122200988,
+      "long_oracion_mediana": 17.0,
+      "zipf_pendiente": 1.078590471493291
+    },
+    "2024": {
+      "intervenciones": 31906,
+      "tokens": 1284487,
+      "tipos": 30580,
+      "hapax": 11115,
+      "oraciones": 67441,
+      "fragmentos": 642,
+      "ttr_medio": 0.3354190031152648,
+      "ttr_desv": 0.017655066791997607,
+      "long_oracion_media": 19.195815601785263,
+      "long_oracion_mediana": 14.0,
+      "zipf_pendiente": 1.0794317462167944
+    }
+  },
+  "pruebas": {
+    "ttr_mannwhitney": {
+      "U": 155395.5,
+      "p": 2.3490042203698526e-06,
+      "r_rank_biserial": 0.1566234654335863
+    },
+    "palabras_funcion_chi2": {
+      "chi2": 7108.812350446293,
+      "gl": 112,
+      "p": 0.0,
+      "v_cramer": 0.07287212522568932
+    },
+    "burrows_delta": 0.2410656835623778
+  },
+  "desplazamiento_palabras_funcion": {
+    "hacia_2019": {
+      "se": -1.0658,
+      "para": -0.7506,
+      "que": -0.6638,
+      "a": -0.6264,
+      "este": -0.5221,
+      "sobre": -0.52,
+      "hay": -0.4247,
+      "mismo": -0.3998,
+      "la": -0.35,
+      "les": -0.3108,
+      "eso": -0.2968,
+      "lo": -0.2816
+    },
+    "hacia_2024": {
+      "unos": 0.434,
+      "su": 0.4621,
+      "como": 0.4821,
+      "muy": 0.5116,
+      "cuando": 0.5343,
+      "porque": 0.5434,
+      "ellos": 0.5448,
+      "le": 0.5767,
+      "bueno": 0.6274,
+      "pero": 0.6703,
+      "y": 0.8954,
+      "pues": 0.9802
+    }
+  },
+  "puntuacion_por_1000_caracteres": {
+    "2019": {
+      "coma": 17.054,
+      "punto": 7.749,
+      "punto y coma": 0.573,
+      "dos puntos": 0.332,
+      "interrogación": 1.128,
+      "exclamación": 0.029,
+      "guion": 0.36,
+      "puntos susp.": 0.109,
+      "comillas": 0.397
+    },
+    "2024": {
+      "coma": 19.976,
+      "punto": 7.731,
+      "punto y coma": 0.836,
+      "dos puntos": 0.79,
+      "interrogación": 2.329,
+      "exclamación": 0.19,
+      "guion": 0.612,
+      "puntos susp.": 0.42,
+      "comillas": 1.176
+    }
+  },
+  "parametros": {
+    "tam_fragmento": 2000,
+    "umbral_frecuencia": 200,
+    "n_palabras_funcion": 113,
+    "semilla": 42
+  }
+}
