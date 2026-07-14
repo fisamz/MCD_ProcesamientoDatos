@@ -8,5 +8,5 @@ Este es el repositorio para la materia Procesamiento y Clasificación de Datos e
 
 Materia impartida por el doctor [Alberto Benavides](https://github.com/albertobenavides)
 
-- [Tarea 1](Tarea1/Tarea1.ipynb)
+- [Tarea 1](Tarea1/)
 
