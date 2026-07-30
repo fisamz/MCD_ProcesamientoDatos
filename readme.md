@@ -13,4 +13,5 @@ Materia impartida por el doctor [Alberto Benavides](https://github.com/albertobe
 - [Tarea 3](Tarea3/)
 - [Tarea 4](Tarea4/)
 - [Tarea 5](Tarea5/)
+- [Tarea 6-7](Tarea6-7 (sixseven))/)
 
