@@ -93,7 +93,7 @@ el modelo reconocía voces conocidas, no solo dígitos.
 ## Cómo está organizado
 
 ```
-├── comun/            código y datos compartidos entre tareas
+├── Tarea0/           código de descarga de datos
 ├── Tarea1/           análisis textual
 ├── Tarea2/           vectorización + sentimiento
 ├── Tarea3/           clasificación de textos
